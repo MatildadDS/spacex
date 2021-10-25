@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       {data.launches.map((launch) => (
-        <li>{launch.launch_date_utc}</li>
+        <li>{launch.launch_date_utc, launch.launch_success, launch.rocket, launch.links, launch.details}</li>
       ))}
     </div>
   );
