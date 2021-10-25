@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# SpaceX Project
+
+First use of GraphQL as an alternative to a REST API and integration in a React application. 
+
+Let's play around with the SpaceX api for a bit.
+
+The goal of this discovery was to create a React client that uses Apollo to display information from a query retrieving JSON from five launches with the following information: 
+- The UTC launch date
+- the status of the launch (was it successful ?)
+- the name of the rocket (rocket)
+- the youtube link
+- the details
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
