@@ -22,10 +22,11 @@ function App() {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
+
   return (
     <div className="App">
       {data.launches.map((launch) => (
-        <li>{launch.launch_date_utc, launch.launch_success, launch.rocket, launch.links, launch.details}</li>
+        <li key={launch.launch_date_utc}>{launch.launch_date_utc}</li>
       ))}
     </div>
   );
